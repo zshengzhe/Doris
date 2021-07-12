@@ -1,13 +1,28 @@
-.classpath
-.settings
-.project
-target
-antx.properties
-*.old
-META-INF
-admin/doris.admin.deploy/bin/apachectl
-admin/doris.admin.deploy/bin/jbossctl
-admin/doris.admin.deploy/bin/jettyctl
-admin/doris.admin.deploy/bin/killws
-admin/doris.admin.deploy/bin/startws
+/target/
+!.mvn/wrapper/maven-wrapper.jar
 
+### STS ###
+.apt_generated
+.classpath
+.factorypath
+.project
+.settings
+.springBeans
+.sts4-cache
+
+### IntelliJ IDEA ###
+.idea
+*.iws
+*.iml
+*.ipr
+
+### NetBeans ###
+/nbproject/private/
+/build/
+/nbbuild/
+/dist/
+/nbdist/
+/.nb-gradle/
+rebel.xml
+.mvn
+*/target
